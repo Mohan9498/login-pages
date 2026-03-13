@@ -1,0 +1,16 @@
+# React
+node_modules
+build
+dist
+.env
+
+# Python
+__pycache__/
+*.pyc
+venv/
+env/
+db.sqlite3
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Auth Container */
+
+.auth-container{
+  @apply flex items-center justify-center min-h-screen bg-gray-100;
+}
+
+/* Auth Card */
+
+.auth-card{
+  @apply bg-white p-8 rounded-2xl shadow-lg w-full max-w-md;
+}
+
+/* Auth Title */
+
+.auth-title{
+  @apply text-2xl font-bold text-center text-gray-800 mb-6;
+}
+
+/* Input Field */
+
+.auth-input{
+  @apply w-full border border-gray-300 rounded-lg px-4 py-2 mb-4 focus:outline-none focus:ring-2 focus:ring-blue-400;
+}
+
+/* Button */
+
+.auth-btn{
+  @apply w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600 transition;
+}
+
+/* Secondary Link */
+
+.auth-link{
+  @apply text-sm text-blue-500 hover:underline text-center block mt-4;
+}
